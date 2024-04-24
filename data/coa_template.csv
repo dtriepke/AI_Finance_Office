@@ -1,0 +1,499 @@
+﻿account_name_level,balance,level
+Assets,-,1
+. Unspecified assets,-,2
+. . Unspecified assets,-,3
+. . . Unspecified assets,Dr,4
+. . . Asset clearing,Dr,4
+. Current assets,-,2
+. . Cash and cash-equivalent assets,-,3
+. . . Unspecified cash/deposits,Dr,4
+. . . Cash,Dr,4
+. . . Domestic bank deposits,Dr,4
+. . . Foreign bank deposits,Dr,4
+. . . Credit union deposits,Dr,4
+. . . Other cash-like instruments,Dr,4
+. . Accounts receivable (A/R),-,3
+. . . Unspecified accounts receivable (A/R),Dr,4
+. . . Allowance for doubtful accounts receivable (A/R) (contra),Cr,4
+. . . Trade accounts receivable (A/R),Dr,4
+. . . Discounts on sales (contra),Cr,4
+. . . Taxes receivable,Dr,4
+. . . Interest Receivable,Dr,4
+. . . Holdbacks Receivable,Dr,4
+. . . Leases Receivable,Dr,4
+. . . A/R from employees,Dr,4
+. . . Non-profit organization receivables from members,Dr,4
+. . Inventories,-,3
+. . . Unspecified Inventory,Dr,4
+. . . Inventory of goods for sale,Dr,4
+. . . Inventory of parts and supplies,Dr,4
+. . . Inventory of properties,Dr,4
+. . . Inventory of aggregates,Dr,4
+. . . Inventory of works in progress,Dr,4
+. . . Inventory of raw materials,Dr,4
+. . . Inventory of securities,Dr,4
+. . . Inventory reserve (contra),Cr,4
+. . Short-term investments,-,3
+. . . Unspecified short-term investments,Dr,4
+. . . Unspecified foreign short-term investments,Dr,4
+. . . Term deposits,Dr,4
+. . . (cur) Shares,Dr,4
+. . . Bonds (asset),Dr,4
+. . . Treasury bills,Dr,4
+. . . Repo,Dr,4
+. . Loans and notes receivable,-,3
+. . . Unspecified loan/note receivable,Dr,4
+. . . Demand loans receivable,Dr,4
+. . . Notes receivable,Dr,4
+. . . Mortgages receivable,Dr,4
+. . (cur) Due from shareholders/directors/partners/members,-,3
+. . . (cur) Due from unspecified related parties,Dr,4
+. . . (cur) Due from shareholders/directors,Dr,4
+. . . (cur) Due from individual shareholders,Dr,4
+. . . (cur) Due from corporate shareholders,Dr,4
+. . . (cur) Due from directors,Dr,4
+. . . (cur) Due from members/partners,Dr,4
+. . . (cur) Due from limited partners,Dr,4
+. . . (cur) Due from members that are partnerships,Dr,4
+. . . (cur) Due from general partners,Dr,4
+. . . (cur) Due from other members,Dr,4
+. . (cur) Due from/investments in related parties,-,3
+. . . (cur) Due from/investments in related parties,Dr,4
+. . Other current assets,-,3
+. . . Unspecified current assets,Dr,4
+. . . Deferred income tax assets,Dr,4
+. . . Accrued investment income,Dr,4
+. . . Taxes recoverable/refundable,Dr,4
+. . . Prepaid expenses,Dr,4
+. . . Drilling advances,Dr,4
+. . . Security/tender deposits,Dr,4
+. . . Purchase prepayments,Dr,4
+. Capital assets,-,2
+. . Land-related,-,3
+. . . Land,Dr,4
+. . . Land improvements,Dr,4
+. . . Accumulated amortization of land improvements (contra),Cr,4
+. . Depletable assets,-,3
+. . . Unspecified depletable assets,Dr,4
+. . . Accumulated amortization of depletable assets (contra),Cr,4
+. . . Depletable natural resources,Dr,4
+. . . Deferred exploration and development charges,Dr,4
+. . Building-related,-,3
+. . . Buildings,Dr,4
+. . . Accumulated amortization of buildings (contra),Cr,4
+. . . Buildings under construction,Dr,4
+. . Capital-lease-related,-,3
+. . . Unspecified capital leases,Dr,4
+. . . Building leases,Dr,4
+. . . Equipment leases,Dr,4
+. . . Vehicle leases,Dr,4
+. . . Leasehold improvements,Dr,4
+. . . Accumulated amortization of capital leases and leasehold improvements (contra),Cr,4
+. . Other tangible capital assets,-,3
+. . . Unspecified tangible capital assets,Dr,4
+. . . Accumulated amortization of other tangible capital assets (contra),Cr,4
+. . . Sites and site-related,Dr,4
+. . . Vehicles,Dr,4
+. . . Equipment,Dr,4
+. . . Equipment under construction,Dr,4
+. . . Other capital assets under construction,Dr,4
+. . . Furniture and fixtures,Dr,4
+. . Intangible capital assets,-,3
+. . . Unspecified intangible capital assets,Dr,4
+. . . Accumulated amortization of intangible assets (contra),Cr,4
+. . . Goodwill,Dr,4
+. . . Quota,Dr,4
+. . . Licenses,Dr,4
+. . . Incorporation costs,Dr,4
+. . . Intellectual property,Dr,4
+. . . Rights,Dr,4
+. . . Resource rights,Dr,4
+. . . Software,Dr,4
+. Long-term financial assets,-,2
+. . (l-t) Due from shareholders/directors/partners/members,-,3
+. . . (l-t) Due from unspecified related parties,Dr,4
+. . . (l-t) Due from shareholders/directors,Dr,4
+. . . (l-t) Due from individual shareholders,Dr,4
+. . . (l-t) Due from corporate shareholders,Dr,4
+. . . (l-t) Due from directors,Dr,4
+. . . (l-t) Due from members/partners,Dr,4
+. . . (l-t) Due from limited partners,Dr,4
+. . . (l-t) Due from members that are partnerships,Dr,4
+. . . (l-t) Due from general partners,Dr,4
+. . . (l-t) Due from other members,Dr,4
+. . (l-t) Due from/investments in related parties,-,3
+. . . (l-t) Due from/investments in related parties,Dr,4
+. . Long-term investments,-,3
+. . . Unspecified long-term investment,Dr,4
+. . . Foreign shares and investments,Dr,4
+. . . (l-t) Shares,Dr,4
+. . . Government debt,Dr,4
+. . . Corporate debt,Dr,4
+. . . Securities,Dr,4
+. . Long-term loans,-,3
+. . . Unspecified long-term loans,Dr,4
+. . . Mortgage assets,Dr,4
+. . . Personal and credit card loans,Dr,4
+. . . Business and government loans,Dr,4
+. . . Line of credit,Dr,4
+. . Other long-term financial assets,-,3
+. . . Unspecified long-term financial asset,Dr,4
+. . . Deferred items,Dr,4
+. . . Accumulated amortization of deferred items (contra),Cr,4
+. . . Reserve fund,Dr,4
+. . . Cash surrender value of life insurance,Dr,4
+. . Assets held in trust,-,3
+. . . Assets held in trust,Dr,4
+Liabilities,-,1
+. Unspecified liabilities,-,2
+. . Unspecified liabilities,-,3
+. . . Unspecified liabilities,Cr,4
+. . . Liability clearing,Cr,4
+. Current liabilities,-,2
+". . Accounts payable, taxes payable, and accrued liabilities",-,3
+. . . Unspecified accounts payable and accrued liabilities,Cr,4
+. . . Trade accounts payable,Cr,4
+. . . Holdbacks payable,Cr,4
+. . . Compensation payable,Cr,4
+. . . Deductions and withholdings payable,Cr,4
+. . . Interest payable,Cr,4
+. . . Non-profit organization payables to members,Cr,4
+. . . Taxes payable,Cr,4
+. . Short-term debt,-,3
+. . . Unspecified short-term debt,Cr,4
+. . . Bank overdraft,Cr,4
+. . . Bank loans,Cr,4
+. . . Credit card loans,Cr,4
+. . . (cur) Lien notes,Cr,4
+. . . (cur) Liability for securities sold short,Cr,4
+. . . (cur) Liability for repo securities sold,Cr,4
+. . . Gold/silver certificates,Cr,4
+. . . Cheques and other items in transit,Cr,4
+. . Short-term deferred revenue,-,3
+. . . Short-term deferred revenue,Cr,4
+. . (cur) Due to shareholders/directors/partners/members,-,3
+. . . (cur) Due to unspecified related parties,Cr,4
+. . . (cur) Due to shareholders/directors,Cr,4
+. . . (cur) Due to individual shareholders,Cr,4
+. . . (cur) Due to corporate shareholders,Cr,4
+. . . (cur) Due to directors,Cr,4
+. . . (cur) Due to members/partners,Cr,4
+. . . (cur) Due to limited partners,Cr,4
+. . . (cur) Due to members that are partnerships,Cr,4
+. . . (cur) Due to general partners,Cr,4
+. . . (cur) Due to other members,-,4
+. . (cur) Due to/investments in related parties,-,3
+. . . (cur) Due to/investments in related parties,Cr,4
+. . Other current liabilities,-,3
+. . . Unspecified current liabilities,Cr,4
+. . . Current portion of long-term liabilities,Cr,4
+. . . Bankers' acceptances,Cr,4
+. . . Deposits received,Cr,4
+. . . Dividends payable,Cr,4
+. . . (cur) Deferred income tax liability,Cr,4
+. . . (cur) Provisions and reserves,Cr,4
+. . . Crew shares,Cr,4
+. Long-term liabilities,-,2
+. . Long-term debt,-,3
+. . . Unspecified long-term debt,Cr,4
+. . . Mortgage liabilities,Cr,4
+. . . Financial institution lending,Cr,4
+. . . Provincial/territorial government loan,Cr,4
+. . . Private loan,Cr,4
+. . . (l-t) Liability for securities sold short,Cr,4
+. . . (l-t) Liability for repo securities sold,Cr,4
+. . . (l-t) Lien notes,Cr,4
+. . Long-term deferred revenue,-,3
+. . . Long-term deferred revenue,Cr,4
+. . (l-t) Due to shareholders/directors/partners/members,-,3
+. . . (l-t) Due to unspecified related parties,Cr,4
+. . . (l-t) Due to shareholders/directors,Cr,4
+. . . (l-t) Due to individual shareholders,Cr,4
+. . . (l-t) Due to corporate shareholders,Cr,4
+. . . (l-t) Due to directors,Cr,4
+. . . (l-t) Due to members/partners,Cr,4
+. . . (l-t) Due to limited partners,Cr,4
+. . . (l-t) Due to members that are partnerships,Cr,4
+. . . (l-t) Due to general partners,Cr,4
+. . . (l-t) Due to other members,Cr,4
+. . (l-t) Due to/investments in related parties,-,3
+. . . (l-t) Due to/investments in related parties,Cr,4
+. . Other long-term liabilities,-,3
+. . . Unspecified long-term liabilities,Cr,4
+. . . Long-term deposit liability,Cr,4
+. . . Bonds and debentures (liability),Cr,4
+. . . (l-t) Deferred income tax liability,Cr,4
+. . . (l-t) Provisions and reserves,Cr,4
+. . . Contributions to environmental trust,Cr,4
+. . . Member allocations,Cr,4
+. . Subordinated debt,-,3
+. . . Subordinated debt,Cr,4
+. . Amounts held in trust,-,3
+. . . Amounts held in trust,Cr,4
+Equity,-,1
+. Unspecified equity,-,2
+. . Unspecified equity,-,3
+. . . Unspecified equity,Cr,4
+. . . Equity clearing,Cr,4
+. Share capital,-,2
+. . Common stock,-,3
+. . . Common stock,Cr,4
+. . Preferred stock,-,3
+. . . Preferred stock,Cr,4
+. Treasury stock,-,2
+. . Treasury stock,-,3
+. . . Treasury stock (contra),Dr,4
+. Paid-in capital,-,2
+. . Paid-in capital,-,3
+. . . Paid-in capital,Cr,4
+. . . Drawings (contra),Dr,4
+. Surplus and general reserve,-,2
+. . Surplus and general reserve,-,3
+. . . Donations and grants,Cr,4
+. . . Appraisal surplus,Cr,4
+. . . General reserve,Cr,4
+. Retained earnings,-,2
+. . Retained earnings,-,3
+. . . Retained earnings,Cr,4
+. . . Dividends declared/paid,Dr,4
+. Accumulated other comprehensive income,-,2
+. . Accumulated other comprehensive income,-,3
+. . . Accumulated other comprehensive income,Cr,4
+. Partners' capital,-,2
+. . Partners' capital,-,3
+. . . General partners' capital,Cr,4
+. . . Limited partners' capital,Cr,4
+. . . Contributions from partners,Cr,4
+Revenue,-,1
+. Unspecified revenue,-,2
+. . Unspecified revenue,-,3
+. . . Unspecified revenue,Cr,4
+. Main business income,-,2
+. . Trade sales of goods/services/resources,-,3
+. . . Discounts on sale revenue (contra),Dr,4
+. . . Refunds (contra),Dr,4
+. . . Trade sales of goods and services,Cr,4
+. . . Sales from resource properties,Cr,4
+. . Investment revenue,-,3
+. . . Unspecified investment revenue,Cr,4
+. . . Domestic investment revenue,Cr,4
+. . . Foreign investment revenue,Cr,4
+. . Interest income (financial institutions),-,3
+. . . Unspecified interest income,Cr,4
+. . . Loan interest income,Cr,4
+. . . Securities interest income,Cr,4
+. . . Deposits with banks interest income,Cr,4
+. . Commission revenue,-,3
+. . . Commission revenue,Cr,4
+. . Rental and leasing revenue,-,3
+. . . Rental and leasing revenue,Cr,4
+. . Realized gains on disposal of assets,-,3
+. . . Realized gains on disposal of assets,Cr,4
+. . NPO amounts received,-,3
+. . . Non-profit organization unspecified amounts received,Cr,4
+. . . Membership fees,Cr,4
+. . . Assessments,Cr,4
+. . . Gifts,Cr,4
+. . . Gross sales/revenues from organizational activities,Cr,4
+. . Other revenue,-,3
+. . . Unspecified other revenue,Cr,4
+. . . Gains on foreign exchange,Cr,4
+. . . Income from closely related parties,Cr,4
+. . . Royalty income (other than resource) and tax credit,Cr,4
+. . . Management and administration fees,Cr,4
+. . . Telecommunications fees,Cr,4
+. . . Consulting fees,Cr,4
+. . . Subsidies and grants,Cr,4
+. . . Sale of by-product,Cr,4
+. . . Deposit services,Cr,4
+. . . Credit services,Cr,4
+. . . Card services,Cr,4
+. . . Patronage dividends,Cr,4
+. . . Insurance recoveries,Cr,4
+. . . Expense recoveries,Cr,4
+. . . Bad debt recoveries,Cr,4
+. . . Discounts on non-sale revenue (contra),Dr,4
+. Other comprehensive income,-,2
+. . Other comprehensive income,-,3
+. . . Unspecified other comprehensive income,Cr,4
+. . . Revaluation surplus,Cr,4
+. . . Defined benefits gains,Cr,4
+. . . Foreign operation translation gains,Cr,4
+. . . Equity instruments gains,Cr,4
+. . . Cash flow hedge effective portion gains,Cr,4
+. . . Income tax relating to components of other comprehensive income,Dr,4
+Expenses,-,1
+. Unspecified expenses,-,2
+. . Unspecified expenses,-,3
+. . . Unspecified expenses,Dr,4
+. . . Purchase discounts (contra),Cr,4
+. Direct costs,-,2
+. . Materials and labor,-,3
+. . . Cost of materials,Dr,4
+. . . Direct labor costs,Dr,4
+. . Resource production costs and crown charges,-,3
+. . . Resource production costs,Dr,4
+. . . Crown charges,Dr,4
+. . Other direct costs,-,3
+. . . Unspecified direct costs,Dr,4
+. . . Production costs other than resource,Dr,4
+. . . Equipment hire and operation,Dr,4
+. . . Lumber-production-related,Dr,4
+. . . Royalty costs,Dr,4
+. . . Freight-in and duty,Dr,4
+. . . Inventory write-downs,Dr,4
+. . . Direct cost amortization of tangible assets,Dr,4
+. . . Direct cost amortization of natural resource assets,Dr,4
+. Operating expenses,-,2
+. . Advertising and promotion,-,3
+. . . Unspecified advertising/promotion,Dr,4
+. . . Advertising,Dr,4
+. . . Donations,Dr,4
+. . . Meals and entertainment,Dr,4
+. . . Promotion,Dr,4
+. . Amortization expense for intangible assets,-,3
+. . . Amortization expense for intangible assets,Dr,4
+. . Liability write-off expense,-,3
+. . . Bad debts,Dr,4
+. . . Loan losses,Dr,4
+. . . Provision for loan losses,Dr,4
+. . Employee benefits,-,3
+. . . Unspecified employee benefits,Dr,4
+. . . Group insurance plans,Dr,4
+. . . Employers' portion of employee benefits,Dr,4
+. . . Contributions to deferred income plans,Dr,4
+. . Amortization expense for natural resources,-,3
+. . . Amortization expense for natural resources,Dr,4
+. . Amortization expense for tangible assets,-,3
+. . . Amortization expense for tangible assets,Dr,4
+. . Insurance expense,-,3
+. . . Insurance expense,Dr,4
+. . Interest and bank charge expense,-,3
+. . . Unspecified Interest and bank charge expense,Dr,4
+. . . Short-term debt interest expense,Dr,4
+. . . Bonds and debentures interest expense,Dr,4
+. . . Mortgage interest expense,Dr,4
+. . . Long-term debt interest expense,Dr,4
+. . . Bank charges,Dr,4
+. . . Credit card charges,Dr,4
+. . . Collections and credit costs,Dr,4
+. . . Unspecified interest paid by financial institutions,Dr,4
+. . . Deposit interest expense,Dr,4
+. . . Merchant fees,Dr,4
+. . Business taxes and fees,-,3
+. . . Unspecified business tax/license/membership,Dr,4
+. . . Business membership,Dr,4
+. . . Business taxes,Dr,4
+. . . Property taxes,Dr,4
+. . . Franchise fees,Dr,4
+. . . Government fees,Dr,4
+. . . Payroll taxes,Dr,4
+. . Professional fees,-,3
+. . . Unspecified professional fees,Dr,4
+. . . Legal fees,Dr,4
+. . . Accounting fees,Dr,4
+. . . Consulting fees,Dr,4
+. . . Architect fees,Dr,4
+. . . Appraisal fees,Dr,4
+. . . Laboratory fees,Dr,4
+. . . Medical fees,Dr,4
+. . . Veterinary fees,Dr,4
+. . . Brokerage fees,Dr,4
+. . . Transfer fees,Dr,4
+. . . Management and administration fees,Dr,4
+. . . Refining and assay fees,Dr,4
+. . . Registrar and transfer agent fees,Dr,4
+. . . Restructuring costs,Dr,4
+. . . Security commission fees,Dr,4
+. . . Training expense,Dr,4
+. . . Studio and recording fees,Dr,4
+. . Rental expense,-,3
+. . . Unspecified rental expense,Dr,4
+. . . Site rental and related costs/fees,Dr,4
+. . . Equipment rental,Dr,4
+. . . Motor vehicle rental,Dr,4
+. . . Storage costs,Dr,4
+. . . Quota rental,Dr,4
+". . Repairs, maintenance, and upgrades",-,3
+. . . Unspecified repairs and maintenance,Dr,4
+. . . Repair and maintenance: buildings,Dr,4
+. . . Repair and maintenance: vehicles,Dr,4
+. . . Repair and maintenance: boats,Dr,4
+. . . Repair and maintenance: machinery and equipment,Dr,4
+. . . Machine shop expense,Dr,4
+. . . Road costs,Dr,4
+. . . Security,Dr,4
+. . . Garbage removal,Dr,4
+. . . Upgrades to computers and software,Dr,4
+. . Operating labor expense,-,3
+. . . Unspecified salaries and wages,Dr,4
+. . . Employee salaries,Dr,4
+. . . Management salaries,Dr,4
+. . . Directors' fees,Dr,4
+. . . Sub-contracts,Dr,4
+. . . Commissions,Dr,4
+. . . Bonuses,Dr,4
+. . . Crew share expense,Dr,4
+. . Supplies,-,3
+. . . Unspecified supplies,Dr,4
+. . . Office supplies,Dr,4
+. . . Small tools,Dr,4
+. . . Shop expense,Dr,4
+. . . Uniforms,Dr,4
+. . . Laundry,Dr,4
+. . . Food and catering,Dr,4
+. . . Trapping and fishing gear,Dr,4
+. . Travel expense,-,3
+. . . Travel expense,Dr,4
+. . Utilities,-,3
+. . . Unspecified utilities,Dr,4
+. . . Electricity,Dr,4
+. . . Water,Dr,4
+. . . Heat,Dr,4
+. . . Fuel costs,Dr,4
+. . . Telephone and telecommunications,Dr,4
+. . . Internet,Dr,4
+. . Other expenses,-,3
+. . . Unspecified operating expenses,Dr,4
+. . . Unspecified computer-related expenses,Dr,4
+. . . Data processing,Dr,4
+. . . Unspecified office expenses,Dr,4
+. . . Cash over/short,Dr,4
+. . . Reimbursement of parent company expense,Dr,4
+. . . Selling expenses,Dr,4
+. . . Shipping and warehouse expense,Dr,4
+". . . Delivery, freight, and express",Dr,4
+. . . Warranty expenses,Dr,4
+. . . Royalty expenses,Dr,4
+. . . Dumping charges,Dr,4
+. . . Land fill fees,Dr,4
+. . . Vehicle expenses,Dr,4
+. . . Research and development,Dr,4
+. . . Withholding taxes,Dr,4
+. . . General and administrative expenses,Dr,4
+. . . Interdivisional expenses,Dr,4
+. . . Income tax expense,Dr,4
+. . Losses,-,3
+. . . Unspecified losses,Dr,4
+. . . Realized losses on disposal of assets,Dr,4
+. . . Losses on foreign exchange,Dr,4
+. . . Losses from closely related parties,Dr,4
+. . . Defined benefits losses,Dr,4
+. . . Foreign operation translation losses,Dr,4
+. . . Equity instruments losses,Dr,4
+. . . Cash flow hedge effective portion losses,Dr,4
+Extraordinary,-,1
+. Clearing,-,2
+. . Clearing,-,3
+. . . Unspecified clearing,Cr,4
+. . . Asset clearing (Extraordinary),Dr,4
+. . . Liability clearing (Extraordinary),Cr,4
+. . . Equity clearing (Extraordinary),Cr,4
+. . . Revenue clearing (Extraordinary),Cr,4
+. . . Expense clearing (Extraordinary),Dr,4
+. Suspense,-,2
+. . Suspense,-,3
+. . . Suspense,Cr,4
+. Unspecified,-,2
+. . Unspecified,-,3
+. . . Unspecified,Cr,4
