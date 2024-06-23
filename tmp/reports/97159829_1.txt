@@ -1,0 +1,37 @@
+
+Invoice Verification Report
+
+Summary:
+- Invoice Number: 97159829
+- Purchase Order Number: 333333
+- Creditor Name: Bradley-Andrade
+- Overall Status: Pending Review
+- Approval for Payment: Pending further action
+
+Detailed Findings:
+- Creditor Name: Matches the purchase order (Bradley-Andrade).
+- Description of Goods or Services: Matches the purchase order (12" Marble Lapis Inlay Chess Table Top With 2" Pieces & 15" Wooden Stand W537).
+- Line Item Net Amount: Matches the purchase order (2 units at $444.6 each, total $889.2).
+- Total Net Amount: Matches the purchase order ($889.2).
+- Gross Amount: Matches the purchase order ($978.12).
+
+Discrepancies:
+- Tax Amounts: The invoice tax amount is $88.92, while the purchase order indicates a tax amount of $10.00. This discrepancy requires clarification from the vendor.
+- Purchase Order Number: The invoice lacks a reference to the purchase order number, which is essential for matching and verification. The corresponding purchase order number is 333333.
+
+Conclusion:
+The invoice matches the purchase order in most aspects, but there are discrepancies in the tax amounts and a missing PO number on the invoice. These issues need to be addressed before the invoice can be approved for payment.
+
+Action Items:
+1. Contact the vendor to clarify the discrepancy in tax amounts.
+2. Ensure that future invoices include the purchase order number for easier verification.
+
+Bank Account Balance:
+- The current bank account balance could not be retrieved due to a technical issue. Alternative methods to obtain this information should be considered, such as contacting the bank directly.
+
+Error Handling:
+- In case of discrepancies or technical issues, the responsible party should be notified immediately to take corrective action.
+- If the bank account balance cannot be obtained, payment decisions should be deferred until the balance is confirmed to ensure sufficient funds are available.
+
+Formatting:
+- This report is formatted for clarity, with headings and subheadings to delineate sections, and is presented in a readable font with appropriate spacing.

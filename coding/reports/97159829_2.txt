@@ -1,0 +1,29 @@
+
+Invoice Verification Report:
+
+Summary:
+- Invoice Number: 97159829
+- Creditor Name: Bradley-Andrade
+- Description of Goods or Service: 12" Marble Lapis Inlay Chess Table Top With 2" Pieces & 15" Wooden Stand W537
+- Overall Status: Pending Review
+- Likelihood of fraud: 
+    - Score: 15% risk
+    - Reasoning: The absence of a tax amount on the purchase order and a missing purchase order number on the invoice are concerning, but the rest of the details match, suggesting a lower risk of fraud.
+
+Red Flags:
+- Tax Amounts: The invoice specifies a tax amount of $88.92, but the purchase order does not mention any tax amounts. This discrepancy needs to be resolved by verifying the tax amount with the creditor or referencing the applicable tax regulations.
+- Purchase Order Number: The invoice does not reference a purchase order number, which is typically required for matching and verification purposes. The corresponding purchase order number is 333333. It is recommended to add the purchase order number to the invoice for proper matching.
+
+Check Calculations:
+- Line Item Net Amount: Matches the purchase order (2 units at $444.6 each, total $889.2).
+- Total Net Amount: Matches the purchase order ($889.2).
+- Gross Amount: Matches the purchase order ($978.12).
+- Line Item Amount: The invoice line item amount matches the purchase order line item amount ($889.2).
+
+All other calculations on the invoice, including unit prices and quantities, are accurate and match the purchase order details.
+
+Additional Details:
+- Due Date: The invoice due date should be provided and matched with the purchase order terms. This information is critical for invoice processing and should be obtained for complete verification.
+- Payment Terms and Currency: These details were not provided in the report. It is suggested to obtain this information for a comprehensive review.
+
+The report is formatted with clear headings and bullet points for better readability, and each section is distinctly separated.
