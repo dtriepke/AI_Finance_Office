@@ -204,7 +204,7 @@ class CustomRetriever(BaseRetriever):
         """
 
         self._vector_retriever = vector_retriever
-        self._postprocessor = postprocessor or CohereRerank(top_n=10, api_key="rFKqnpNZZNBp9D8LaCXmvUG2z0LXM9bV28qjtSPz")
+        self._postprocessor = postprocessor or CohereRerank(top_n=10, api_key="COHERE_API_KEY")
         super().__init__()
 
     def _retrieve(self, query_bundle):
