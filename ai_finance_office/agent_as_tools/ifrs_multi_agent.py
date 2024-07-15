@@ -188,6 +188,7 @@ class CustomRetriever(BaseRetriever):
     """
     A custom retriever class that extends the BaseRetriever for retrieving nodes based on vector similarity.
     It incorporates a postprocessing step to rerank the retrieved nodes.
+    Go to: https://dashboard.cohere.com/api-keys for the cohere rerank post post post processor
     
     Attributes:
         _vector_retriever: The vector-based node retriever.
