@@ -2,31 +2,40 @@
 
 
 
-# AI Finance Office (genAI agentic project)
+# AI Finance Office (Autogen agentic project)
 
 Welcome to the AI Finance Office project! This project aims to revolutionize the finance back-office by leveraging AI agent crews to automate and streamline various financial processes. Our goal is to create an entirely AI-driven finance office that enhances efficiency, reduces errors, and provides seamless financial management.
 
+*Note: all remining api keys in the code are already disabled.*
 ## Overview
 
 In the initial phase of this project, we have developed two key AI agent crews:
 
-1. **Chart of Accounts (CoA) Crew**
-2. **Invoice Processing Crew**
+1. **Chart of Accounts (CoA) Crew**: 
+    * Using LlamaIndex, Deep Lake Index and auogen  
+    * Follow: `1. CoA_smart_agent_with_autogen_and_deep_lake.ipynb`
+2. **Invoice Processing Crew**: 
+    * Using LlamaIndex, LlamaParse and autogen  
+    * Follow: `2. Invoice_processing_smart_agent_wiht_llamaparse_and_autogen.ipynb`
 
-## Chart of Accounts (CoA) Crew
+
+
+## Chart of Accounts (CoA) Crew with Deep Lake, LlamaIndex and auogen
+
+Follow: `1. CoA_smart_agent_with_autogen_and_deep_lake.ipynb`
 
 The CoA Crew is responsible for maintaining the Chart of Accounts, ensuring that all accounts are accurately categorized and up-to-date. This crew is equipped with advanced features, including:
 
 - **IFRS Knowledge:** The crew has access to International Financial Reporting Standards (IFRS) knowledge, ensuring compliance with global accounting standards.
 - **Internet Search:** The crew can perform internet searches to fetch the latest updates and information relevant to accounting practices and standards.
 
-![alt text](image.png)
+![alt text](pics/image.png)
 
-## Invoice Processing Crew
+## Invoice Processing Crew with LlamaParse, LlamaIndex and autogen
 
+Follow: `2. Invoice_processing_smart_agent_wiht_llamaparse_and_autogen.ipynb`
 
 **invoice_processing_agent:**  
-
 
 
 The Invoice Processing Crew automates the handling of invoices, from reading and interpreting invoice data to verifying and matching it with corresponding Purchase Orders. Key capabilities of this crew include:
@@ -42,6 +51,47 @@ The Invoice Processing Crew automates the handling of invoices, from reading and
   po_matching_agent: Verifies invoice with the PO and creates a report.   
   review_agent: reviews reports  
   logger: writes python code  
+
+
+**Result Report generated from crew for 1 invoice:**  
+The obejctive of the run was to to test the behaviour for:   
+- inconsistent tax amount wiht PO database: -> detected 
+- a to low bank balance to pay the invoice: -> detected 
+
+```text
+Revised Invoice Verification Report:
+
+Summary of Findings:
+- Invoice Number: 97159829
+- Creditor Name: Bradley-Andrade
+- Description of Goods or Service: 12" Marble Lapis Inlay Chess Table Top With 2" Pieces & 15" Wooden Stand W537
+- Invoice Date: 09/18/2015
+- Purchase Order Date: 09/18/2015
+- Overall Status: Yellow
+- Likelihood of Fraud: 30% risk (based on discrepancies in tax amounts and missing purchase order number)
+- Bank Account Balance Coverage: No (current balance is $200, invoice net amount is $889.2)
+- Action Items: Contact creditor to resolve tax discrepancy and missing purchase order number; review internal controls.
+
+Detailed Report:
+- The invoice and purchase order dates align, both being on 09/18/2015.
+- Payment terms are not specified in the provided data for both the invoice and the purchase order.
+- The currency is not mentioned in the provided data; it is assumed to be the local currency of the company.
+- The bank account balance date is 06/23/2024, indicating the financial status at the time of the report.
+- The likelihood of fraud is assessed at 30% risk due to the tax amount discrepancy and the absence of a purchase order number on the invoice. 
+  The methodology for this assessment should be reviewed and clarified.
+- The tax amounts are inconsistent, with the invoice stating $88.92 and the purchase order stating $10.00.
+- The purchase order number is missing from the invoice; the corresponding number is 333333.
+- The line item net amount, total net amount, and gross amount match between the invoice and the purchase order.
+- The invoice line item description and amount match the purchase order, with a correction from "2 unite" to "2 units."
+
+Formatting and Consistency:
+- The report has been formatted for consistency and clarity.
+
+Next Steps:
+- Contact Bradley-Andrade to address the tax amount discrepancy and to add the missing purchase order number to the invoice.
+- Review internal controls to ensure purchase order numbers are included on all invoices and that tax amounts are correctly calculated and reported.
+- Assess the company's current financial position and take necessary actions to ensure sufficient funds are available to cover upcoming invoices.
+```
 
 
 **Purchase order matching agent**

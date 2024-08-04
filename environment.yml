@@ -1,4 +1,4 @@
-name: smart_agent_2
+name: smart_agent
 channels:
   - conda-forge
   - defaults
