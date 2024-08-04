@@ -2,7 +2,7 @@
 
 
 
-# AI Finance Office
+# AI Finance Office (genAI agentic project)
 
 Welcome to the AI Finance Office project! This project aims to revolutionize the finance back-office by leveraging AI agent crews to automate and streamline various financial processes. Our goal is to create an entirely AI-driven finance office that enhances efficiency, reduces errors, and provides seamless financial management.
 
