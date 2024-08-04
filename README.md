@@ -20,7 +20,7 @@ In the initial phase of this project, we have developed two key AI agent crews:
 
 
 
-## Chart of Accounts (CoA) Crew with Deep Lake, LlamaIndex and auogen
+## Chart of Accounts (CoA) Crew with Deep Lake, LlamaIndex and autogen
 
 Follow: `1. CoA_smart_agent_with_autogen_and_deep_lake.ipynb`
 
@@ -29,7 +29,7 @@ The CoA Crew is responsible for maintaining the Chart of Accounts, ensuring that
 - **IFRS Knowledge:** The crew has access to International Financial Reporting Standards (IFRS) knowledge, ensuring compliance with global accounting standards.
 - **Internet Search:** The crew can perform internet searches to fetch the latest updates and information relevant to accounting practices and standards.
 
-![alt text](pics/image.png)
+![alt text](pics/coa_agent_crew.png)
 
 ## Invoice Processing Crew with LlamaParse, LlamaIndex and autogen
 
@@ -238,8 +238,8 @@ To get started with the AI Finance Office project, follow these steps:
 
 2. **Play with the crews:**  
  
-- Open `CoA_smart_agent_2.ipynb`
-- Open `Invoice_smart_agent_1.ipynb`
+- Open `1. CoA_smart_agent_with_autogen_and_deep_lake.ipynb`
+- Open `2 Invoice_processing_smart_agent_wiht_llamaparse_and_autogen.ipynb`
 
 
 
