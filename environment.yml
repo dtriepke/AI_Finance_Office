@@ -206,7 +206,7 @@ dependencies:
     - pyarrow==14.0.2
     - pyasn1==0.5.1
     - pyasn1-modules==0.3.0
-    - pyautogen==0.2.7
+    - ag2==0.2.7
     - pydantic==2.5.3
     - pydantic-core==2.14.6
     - pydeck==0.8.1b0
